@@ -1,0 +1,1275 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Cerber\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Tue Sep 08 2015 21:38:11 GMT+0300\n"
+"PO-Revision-Date: Wed Apr 12 2017 21:50:03 GMT+0300\n"
+"Last-Translator: Greg <domain@xterm.ru>\n"
+"Language-Team: \n"
+"Language: German\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: de_DE"
+
+#: ../settings.php:71
+msgid "Display 404 page"
+msgstr ""
+
+#: ../dashboard.php:102 ../dashboard.php:440 ../dashboard.php:625 ../dashboard.
+#: php:868 ../wp-cerber.php:2272 ../settings.php:184
+#, fuzzy
+msgid "White IP Access List"
+msgstr "Weiße Liste (erlaubten IPs)"
+
+#: ../dashboard.php:104 ../dashboard.php:441 ../dashboard.php:627 ../dashboard.
+#: php:869
+#, fuzzy
+msgid "Black IP Access List"
+msgstr "Schwarze Liste (verbotenen IPs)"
+
+#: ../dashboard.php:237
+#, fuzzy
+msgid "unknown"
+msgstr "unbekannt"
+
+#. Dashboard is in German more common in this context as the actual translation "Amaturenbrett" which is only used for non-digital things like in cars!
+#: ../dashboard.php:705 ../dashboard.php:876 ../dashboard.php:1320 ../settings.
+#: php:217
+#, fuzzy
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: ../dashboard.php:1049
+#, fuzzy
+msgid "Confused about some settings?"
+msgstr "Verwirrende Einstellungen?"
+
+#: ../dashboard.php:1264
+#, fuzzy
+msgid "You've subscribed"
+msgstr "Erfolgreich abonniert"
+
+#: ../dashboard.php:1267
+#, fuzzy
+msgid "You've unsubscribed"
+msgstr "Erfolgreich abgemeldet"
+
+#. One "Minute", two/three/four/... "Minuten".
+#: ../wp-cerber.php:196
+#, fuzzy
+#, php-format
+msgid "You have reached the login attempts limit. Please try again in %d minutes."
+msgstr ""
+"Sie haben die maximale Anzahl an Login-Versuchen erreicht. Bitte versuchen "
+"Sie es in %d Minuten noch einmal."
+
+#: ../wp-cerber.php:1941
+#, fuzzy
+msgid "By user"
+msgstr "Von Nutzer"
+
+#: ../wp-cerber.php:1942
+#, fuzzy
+msgid "From IP address"
+msgstr "Von IP-Adresse"
+
+#: ../wp-cerber.php:1945
+#, fuzzy
+msgid "From country"
+msgstr "Vom Land"
+
+#: ../wp-cerber.php:1950 ../wp-cerber.php:2271
+#, fuzzy
+msgid "WP Cerber is now active and has started protecting your site"
+msgstr "WP Cerber ist nun aktiv und schützt ihre Website"
+
+#: ../wp-cerber.php:2272
+#, fuzzy
+msgid "Your IP address is added to the"
+msgstr "Ihre IP-Adresse wurde hinzugefügt zu"
+
+#. Only correct if "IP blacklisted" is used as indicative. Otherwise it would not translate "IP auf der schwarzen Liste" but "IP auf die schwarze Liste gesetzt" (if it states that the IP was just blacklisted).
+#: ../common.php:266
+#, fuzzy
+msgid "IP blacklisted"
+msgstr "IP blockiert"
+
+#. "OK, vernichte sie alle" is a nicer translation for "OK, kill them all" ... too harsh or does it fit?
+#: ../cerber-lab.php:417
+#, fuzzy
+msgid "OK, nail them all"
+msgstr "OK, vernichte sie alle"
+
+#. There is no perfect translation for "slug" with keeping the context. "Permalink" describes the whole URL but is used by WordPress in this place.
+#: ../settings.php:74
+#, fuzzy
+msgid "must not overlap with the existing pages or posts slug"
+msgstr ""
+"darf sich nicht mit Permalinks von vorhandenen Seiten oder Beiträgen "
+"überlappen"
+
+#. Non-fuzzy translation would be "Verwende Datei" but in this context "Verwende Logdatei" is describing exactly what it does.
+#: ../settings.php:92
+#, fuzzy
+msgid "Use file"
+msgstr "Verwende Logdatei"
+
+#. More narrow translation would be "IP aufbrechen" but does not really fit.
+#: ../settings.php:95
+#, fuzzy
+msgid "Drill down IP"
+msgstr "IP inspizieren"
+
+#. "Enumeration" would originally translate to "Aufzählung" but does not quite fit.
+#: ../settings.php:104
+#, fuzzy
+msgid "Stop user enumeration"
+msgstr "Benutzererfassung stoppen"
+
+#: ../settings.php:143
+#, fuzzy
+msgid "notification letters allowed per hour (0 means unlimited)"
+msgstr "Zugelassene Benachrichtigungen pro Stunde (0 bedeutet kein Limit)"
+
+#: ../settings.php:184
+#, fuzzy
+msgid "These settings do not affect hosts from the "
+msgstr "Diese Einstellungen beeinflussen keine Hosts von"
+
+#. "Aussperrungen" is used in plural because there are more likely several lockouts in the last hours. One single lockout would demand the use of the singular "Aussperrung". We could use "Aussperrung(en)" to cover all cases.
+#: ../settings.php:330
+#, fuzzy
+#, php-format
+msgid "Increase lockout duration to %s hours after %s lockouts in the last %s hours"
+msgstr ""
+"Erhöhe die Sperrdauer um %s Stunden nach %s Aussperrungen in den letzten %s "
+"Stunden"
+
+#. "below" is ignored in the translation.
+#: ../cerber-tools.php:56
+#, fuzzy
+msgid ""
+"When you click the button below you will get a configuration file, which you "
+"can upload on another site."
+msgstr ""
+"Wenn Sie auf den Button klicken, bekommen Sie eine Konfigurationsdatei, die "
+"Sie auf einer anderen Website hochladen können."
+
+#. "below" is ignored in the translation.
+#: ../cerber-tools.php:63
+#, fuzzy
+msgid ""
+"When you click the button below, file will be uploaded and all existing "
+"settings will be overridden."
+msgstr ""
+"Wenn Sie auf den Button klicken, wird die Datei hochgeladen und alle "
+"vorhandenen Einstellungen werden überschrieben."
+
+#: ../dashboard.php:74 ../dashboard.php:123
+msgid "Remove"
+msgstr "Entfernen"
+
+#: ../dashboard.php:77 ../dashboard.php:460 ../wp-cerber.php:2168
+msgid "IP"
+msgstr "IP"
+
+#: ../dashboard.php:77 ../dashboard.php:460
+msgid "Hostname"
+msgstr "Hostname"
+
+#: ../dashboard.php:77
+msgid "Expires"
+msgstr "Gültig bis"
+
+#: ../dashboard.php:77 ../wp-cerber.php:1921
+msgid "Reason"
+msgstr "Grund"
+
+#: ../dashboard.php:77
+msgid "Action"
+msgstr "Aktion"
+
+#: ../dashboard.php:83
+#, php-format
+msgid "Showing last %d records from %d"
+msgstr "Zeige die letzten %d Einträge von %d"
+
+#: ../dashboard.php:85
+msgid "Hint"
+msgstr "Hinweis"
+
+#: ../dashboard.php:85
+msgid "To view activity, click on the IP"
+msgstr "Um die Aktivität sehen zu können, klicken Sie auf die IP"
+
+#: ../dashboard.php:89
+msgid "No lockouts at the moment. The sky is clear."
+msgstr "Keine Sperrung im Moment. Der Himmel ist klar."
+
+#: ../dashboard.php:102
+msgid "These IPs will never be locked out"
+msgstr "Diese IPs werden nie gesperrt"
+
+#: ../dashboard.php:104
+msgid "Nobody can log in or register from these IPs"
+msgstr "Niemand kann sich von diesen IPs anmelden oder registrieren"
+
+#: ../dashboard.php:106
+msgid "Your IP"
+msgstr "Ihre IP"
+
+#: ../dashboard.php:123 ../dashboard.php:657
+msgid "Check for activity"
+msgstr "Auf Aktivität überprüfen"
+
+#: ../dashboard.php:126
+msgid "List is empty"
+msgstr "Liste ist leer"
+
+#: ../dashboard.php:130
+msgid "Add IP to the list"
+msgstr "Füge IP zur Liste hinzu"
+
+#: ../dashboard.php:150 ../dashboard.php:158
+msgid "Incorrect IP address or IP range"
+msgstr "Falsche IP-Adresse oder falscher IP-Bereich"
+
+#: ../dashboard.php:153
+#, php-format
+msgid "Address %s was added to White IP Access List"
+msgstr "Adresse %s wurde zur Liste der erlaubten IPs hinzugefügt"
+
+#: ../dashboard.php:162
+msgid "You can't add your IP address"
+msgstr "Sie können Ihre IP Adresse nicht hinzufügen"
+
+#: ../dashboard.php:166
+#, php-format
+msgid "Address %s was added to Black IP Access List"
+msgstr "Adresse %s wurde zur Liste der verbotenen IPs hinzugefügt"
+
+#: ../dashboard.php:257
+msgid "Message has been sent to "
+msgstr "Die Nachricht wurde gesendet an␣"
+
+#: ../dashboard.php:260
+msgid "Unable to send notification email"
+msgstr "Kann Benachrichtigungsemail nicht senden"
+
+#: ../dashboard.php:267
+#, php-format
+msgid "Lockout for %s was removed"
+msgstr "Die Sperre für %s wurde entfernt"
+
+#: ../dashboard.php:283 ../dashboard.php:1149
+msgid "Settings saved"
+msgstr "Einstellungen gespeichert"
+
+#: ../dashboard.php:337
+msgid "IP address"
+msgstr "IP-Adresse"
+
+#: ../dashboard.php:337 ../dashboard.php:460
+msgid "Date"
+msgstr "Datum"
+
+#: ../dashboard.php:337 ../dashboard.php:460 ../dashboard.php:877 ../dashboard.
+#: php:1012 ../wp-cerber.php:2167 ../settings.php:88 ../settings.php:219
+msgid "Activity"
+msgstr "Aktivität"
+
+#: ../dashboard.php:337 ../dashboard.php:460
+msgid "Local User"
+msgstr "Lokaler Benutzer"
+
+#: ../dashboard.php:337
+msgid "User login"
+msgstr "Benutzer-Anmeldung"
+
+#: ../dashboard.php:337
+msgid "User ID"
+msgstr "Benutzer-ID"
+
+#: ../dashboard.php:337 ../dashboard.php:460 ../wp-cerber.php:2176
+msgid "Username used"
+msgstr "Benutzername wird bereits verwendet"
+
+#: ../dashboard.php:445 ../dashboard.php:630 ../common.php:265
+msgid "Locked out"
+msgstr "Ausgesperrt"
+
+#: ../dashboard.php:469
+msgid "Export"
+msgstr "Export"
+
+#: ../dashboard.php:473
+msgid "No activity has been logged."
+msgstr "Keine Aktivität wurde protokolliert."
+
+#: ../dashboard.php:478
+msgid "All activities"
+msgstr "Alle Aktivitäten"
+
+#: ../dashboard.php:485
+msgid "Search for IP or username"
+msgstr "Suche nach IP oder Nutzernamen"
+
+#: ../dashboard.php:485
+msgid "Filter"
+msgstr "Filter"
+
+#: ../dashboard.php:653
+msgid "Abuse email:"
+msgstr "Missbrauch Email:"
+
+#: ../dashboard.php:657
+msgid "Network:"
+msgstr "Netzwerk:"
+
+#: ../dashboard.php:671
+msgid "Add network to the Black List"
+msgstr "Netzwerk zur schwarzen Liste hinzufügen"
+
+#: ../dashboard.php:675
+msgid "Add IP to the Black List"
+msgstr "Füge IP zur Schwarzen Liste hinzu"
+
+#: ../dashboard.php:700
+msgid "WP Cerber Settings"
+msgstr "WP Cerber Einstellungen"
+
+#. Name of the plugin
+#: ../dashboard.php:700 ../dashboard.php:703 ../dashboard.php:732
+msgid "WP Cerber"
+msgstr "WP Cerber"
+
+#: ../dashboard.php:703 ../settings.php:212
+msgid "WP Cerber Security"
+msgstr "WP Cerber Sicherheit"
+
+#: ../dashboard.php:705
+msgid "Cerber Dashboard"
+msgstr "Cerber Dashboard"
+
+#: ../dashboard.php:707
+msgid "Cerber reCAPTCHA settings"
+msgstr "Cerber reCAPTCHA settings"
+
+#: ../dashboard.php:707
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: ../dashboard.php:708
+msgid "Cerber tools"
+msgstr "Cerber Werkzeuge"
+
+#. Used to be "Import/Export" but this is a fuzzy translation. Exact translation that WordPress also uses is "Werkzeuge".
+#: ../dashboard.php:708 ../cerber-tools.php:40
+msgid "Tools"
+msgstr "Werkzeuge"
+
+#: ../dashboard.php:770
+msgid "Comments"
+msgstr "Kommentare"
+
+#: ../dashboard.php:771
+msgid "Last login"
+msgstr "Letzte Anmeldung"
+
+#: ../dashboard.php:772
+msgid "Failed attempts in last 24 hours"
+msgstr "Fehlversuche in den letzten 24 Stunden"
+
+#: ../dashboard.php:773
+msgid "Date of registration"
+msgstr "Registrierungsdatum"
+
+#: ../dashboard.php:798 ../dashboard.php:851
+msgid "Never"
+msgstr "Niemals"
+
+#: ../dashboard.php:822
+msgid "Cerber Quick View"
+msgstr "Cerber Schnellansicht"
+
+#: ../dashboard.php:855
+msgid "active"
+msgstr "aktiv"
+
+#: ../dashboard.php:855
+msgid "deactivate"
+msgstr "deaktiviert"
+
+#: ../dashboard.php:857
+msgid "not active"
+msgstr "nicht aktiv"
+
+#. "deactive" and "disabled" mean exactly the same in German.
+#: ../dashboard.php:858
+msgid "disabled"
+msgstr "deaktiviert"
+
+#: ../dashboard.php:863
+msgid "failed attempts"
+msgstr "Fehlversuche"
+
+#: ../dashboard.php:863 ../dashboard.php:864
+msgid "in 24 hours"
+msgstr "in 24 Stunden"
+
+#: ../dashboard.php:863 ../dashboard.php:864
+msgid "view all"
+msgstr "Zeige alle"
+
+#: ../dashboard.php:864
+msgid "lockouts"
+msgstr "Sperren"
+
+#: ../dashboard.php:866
+msgid "Lockouts at the moment"
+msgstr "Momentane Sperren"
+
+#: ../dashboard.php:867
+msgid "Last lockout"
+msgstr "Letzte Sperre"
+
+#: ../dashboard.php:868 ../dashboard.php:869 ../dashboard.php:1300
+msgid "entry"
+msgid_plural "entries"
+msgstr[0] "Eintrag"
+msgstr[1] "Einträge"
+
+#: ../dashboard.php:870 ../settings.php:77
+msgid "Citadel mode"
+msgstr "Citadel Modus"
+
+#: ../dashboard.php:872 ../settings.php:145
+msgid "Push notifications"
+msgstr "Push-Benachrichtigungen"
+
+#: ../dashboard.php:878 ../settings.php:222
+msgid "Lockouts"
+msgstr "Sperren"
+
+#: ../dashboard.php:879 ../dashboard.php:1321 ../wp-cerber.php:2278 ../settings.
+#: php:227 ../cerber-tools.php:59 ../cerber-tools.php:68 ../cerber-tools.php:178
+msgid "Access Lists"
+msgstr "Zugriffslisten"
+
+#: ../dashboard.php:1011 ../dashboard.php:1026
+msgid "View all"
+msgstr "Zeige alle"
+
+#: ../dashboard.php:1027
+msgid "Recently locked out IP addresses"
+msgstr "Kürzlich ausgesperrte IP-Adressen"
+
+#: ../dashboard.php:1050
+msgid "You can easily load default recommended settings using button below"
+msgstr ""
+"Sie können ganz einfach mit dem unteren Button empfohlene "
+"Standardeinstellungen laden"
+
+#: ../dashboard.php:1052
+msgid "Load default settings"
+msgstr "Standardeinstellung laden"
+
+#: ../dashboard.php:1054 ../dashboard.php:1450
+msgid "Are you sure?"
+msgstr "Sind Sie sicher?"
+
+#: ../dashboard.php:1060
+msgid "doesn't affect Custom login URL and Access Lists"
+msgstr "hat keinen Einfluss auf benutzerdefinierte Login-URL und Zugriffslisten"
+
+#: ../dashboard.php:1079
+msgid "Donate"
+msgstr "Spenden"
+
+#: ../dashboard.php:1132
+msgid "Attention! Citadel mode is now active. Nobody is able to log in."
+msgstr "Achtung! Citadel-Modus ist nun aktiv. Niemand kann sich anmelden."
+
+#: ../dashboard.php:1133
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+#: ../dashboard.php:1134
+msgid "View Activity"
+msgstr "Aktivitäten anzeigen"
+
+#: ../dashboard.php:1190
+msgid "New version is available"
+msgstr "Eine neue Version ist verfügbar"
+
+#: ../dashboard.php:1196
+#, php-format
+msgid "Update to version %s of WP Cerber"
+msgstr "Update auf Version %s von WP Cerber"
+
+#: ../dashboard.php:1235
+msgid "Subscribe"
+msgstr "Abonnieren"
+
+#: ../dashboard.php:1236
+msgid "Unsubscribe"
+msgstr "Abmelden"
+
+#. URI of the plugin
+msgid "http://wpcerber.com"
+msgstr "http://wpcerber.com"
+
+#. Description of the plugin
+msgid ""
+"Protects site from brute force attacks, bots and hackers. Antispam "
+"protection with reCAPTCHA. Comprehensive control of user activity. Restrict "
+"login by IP access lists. Limit login attempts. Feel free to contact "
+"developer on the site <a href=\"http://wpcerber.com\">wpcerber.com</a>."
+msgstr ""
+"Schützt Seite vor Brute-Force-Attacken, Bots und Hackern. Anti-Spam-Schutz "
+"mit reCAPTCHA. Umfassende Kontrolle von Nutzeraktivitäten. Eingeschränkte "
+"Anmeldung durch IP-Zugriffs-Listen. Anmeldeversuche limitieren. Gerne können "
+"Sie den Entwickler auf <a href=\"http://wpcerber.com\">wpcerber.com</a> "
+"kontaktieren."
+
+#. Author of the plugin
+msgid "Gregory"
+msgstr "Gregory"
+
+#: ../wp-cerber.php:190
+msgid "You are not allowed to log in. Ask your administrator for assistance."
+msgstr ""
+"Sie sind nicht berechtigt, sich anzumelden. Fragen Sie Ihren Administrator "
+"nach Unterstützung."
+
+#: ../wp-cerber.php:214
+#, php-format
+msgid "You have only one attempt remaining."
+msgid_plural "You have %d attempts remaining."
+msgstr[0] "Sie haben nur noch einen Versuch."
+msgstr[1] "Sie haben nur noch %d Versuche."
+
+#: ../wp-cerber.php:496
+msgid ""
+"Human verification failed. Please click the square box in the reCAPTCHA "
+"block below."
+msgstr ""
+"Menschlichkeitsnachweis gescheitert. Bitte klicken Sie das quadratische "
+"Kästchen im reCAPTCHA-Block unten."
+
+#: ../wp-cerber.php:602 ../wp-cerber.php:734 ../wp-cerber.php:741 ../wp-cerber.
+#: php:765 ../common.php:81 ../common.php:134 ../settings.php:479
+msgid "ERROR:"
+msgstr "FEHLER:"
+
+#: ../wp-cerber.php:613
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: The password you entered for the username %s is "
+"incorrect."
+msgstr ""
+"<strong>FEHLER</strong>: Das eingegebene Passwort für den Benutzernamen %s "
+"ist falsch."
+
+#: ../wp-cerber.php:742
+msgid "Username is not allowed. Please choose another one."
+msgstr "Benutzername ist nicht erlaubt. Bitte einen anderen wählen."
+
+#: ../wp-cerber.php:1870
+msgid "WP Cerber notify"
+msgstr "WP Cerber benachrichtigen"
+
+#: ../wp-cerber.php:1888
+msgid "Citadel mode is activated"
+msgstr "Citadel-Modus ist aktiviert"
+
+#: ../wp-cerber.php:1890
+#, php-format
+msgid "Citadel mode is activated after %d failed login attempts in %d minutes."
+msgstr "Citadel-Modus ist aktiviert nach %d fehlgeschlagenen Logins in %d Minuten."
+
+#: ../wp-cerber.php:1891
+#, php-format
+msgid "Last failed attempt was at %s from IP %s with user login: %s."
+msgstr ""
+"Der letzte gescheiterte Versuch war um %s von der IP %s mit der "
+"Benutzeranmeldung: %s."
+
+#: ../wp-cerber.php:1892 ../wp-cerber.php:2192
+msgid "View activity in dashboard"
+msgstr "Zeige Aktivität im Dashboard"
+
+#: ../wp-cerber.php:1914
+msgid "unspecified"
+msgstr "nicht spezifiziert"
+
+#: ../wp-cerber.php:1917
+msgid "Number of lockouts is increasing"
+msgstr "Anzahl an Sperren steigt an"
+
+#: ../wp-cerber.php:1919
+msgid "Number of active lockouts"
+msgstr "Anzahl der aktiven Sperren"
+
+#: ../wp-cerber.php:1920
+#, php-format
+msgid "Last lockout was added: %s for IP %s"
+msgstr "Letzte Sperre wurde hinzugefügt: %s für IP %s"
+
+#: ../wp-cerber.php:1922
+msgid "View activity for this IP"
+msgstr "Zeige Aktivität für diese IP"
+
+#: ../wp-cerber.php:1923
+msgid "View lockouts in dashboard"
+msgstr "Zeige Sperren im Dashboard"
+
+#: ../wp-cerber.php:1926 ../wp-cerber.php:1928
+msgid "A new version of WP Cerber is available to install"
+msgstr "Eine neue Version von WP Cerber ist zur Installation verfügbar"
+
+#: ../wp-cerber.php:1927
+msgid "Hi!"
+msgstr "Hallo!"
+
+#. Original translation is "Internetseite" but this translation is not up to time.
+#: ../wp-cerber.php:1929 ../wp-cerber.php:1940
+msgid "Website"
+msgstr "Website"
+
+#: ../wp-cerber.php:1932 ../wp-cerber.php:1933
+msgid "The WP Cerber security plugin has been deactivated"
+msgstr "Das WP Cerber Sicherheits-Plugin wurde deaktiviert"
+
+#: ../wp-cerber.php:1935
+msgid "Not logged in"
+msgstr "Nicht angemeldet"
+
+#: ../wp-cerber.php:1949
+msgid "The WP Cerber security plugin is now active"
+msgstr "Das WP Cerber Sicherheits-Plugin ist nun aktiv"
+
+#: ../wp-cerber.php:1951
+msgid "Change notification settings"
+msgstr "Benachrichtigungseinstellungen ändern"
+
+#: ../wp-cerber.php:1956
+msgid "New Custom login URL"
+msgstr "Neue benutzerdefinierte Login-URL"
+
+#: ../wp-cerber.php:1960 ../wp-cerber.php:1961
+msgid "A new activity has been recorded"
+msgstr "Eine neue Aktivität wurde aufgezeichnet"
+
+#: ../wp-cerber.php:1976
+msgid "This message was sent by"
+msgstr "Diese Nachricht wurde gesendet von"
+
+#: ../wp-cerber.php:2172
+msgid "User"
+msgstr "Benutzer"
+
+#: ../wp-cerber.php:2180
+msgid "Search string"
+msgstr "Such-String"
+
+#: ../wp-cerber.php:2193
+msgid "To unsubscribe click here"
+msgstr "Zum Abmelden hier klicken"
+
+#: ../wp-cerber.php:2246
+#, php-format
+msgid "The WP Cerber requires PHP %s or higher. You are running"
+msgstr "WP Cerber benötigt PHP Version %s oder höher. Sie haben"
+
+#: ../wp-cerber.php:2250
+#, php-format
+msgid "The WP Cerber requires WordPress %s or higher. You are running"
+msgstr "WP Cerber benötigt Wordpress Version %s oder höher. Sie haben"
+
+#: ../wp-cerber.php:2255
+msgid "Can't activate WP Cerber due to a database error."
+msgstr "Kann WP Cerber aufgrund eines Datenbankfehlers nicht aktivieren."
+
+#: ../wp-cerber.php:2274
+msgid "It's important to check security settings."
+msgstr "Es ist wichtig Sicherheitseinstellungen zu überprüfen."
+
+#: ../wp-cerber.php:2277 ../settings.php:224
+msgid "Main Settings"
+msgstr "Haupteinstellungen"
+
+#. "Abhärtung" is the medical translation for "hardening" which fits best in this case.
+#: ../wp-cerber.php:2279 ../settings.php:229
+msgid "Hardening"
+msgstr "Abhärtung"
+
+#: ../wp-cerber.php:2280 ../settings.php:63 ../settings.php:81 ../settings.php:234
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#: ../wp-cerber.php:2281
+msgid "Import settings"
+msgstr "Import-Einstellungen"
+
+#: ../whois.php:211
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: ../common.php:253
+msgid "User created"
+msgstr "Benutzer erstellt"
+
+#: ../common.php:254
+msgid "User registered"
+msgstr "Benutzer registriert"
+
+#: ../common.php:255
+msgid "Logged in"
+msgstr "Eingeloggt"
+
+#: ../common.php:256
+msgid "Logged out"
+msgstr "Ausgeloggt"
+
+#: ../common.php:257
+msgid "Login failed"
+msgstr "Login fehlgeschlagen"
+
+#: ../common.php:260
+msgid "IP blocked"
+msgstr "IP geblockt"
+
+#: ../common.php:261
+msgid "Subnet blocked"
+msgstr "Subnetz geblockt"
+
+#: ../common.php:263
+msgid "Citadel activated!"
+msgstr "Citadel-Modus aktiviert!"
+
+#: ../common.php:269
+msgid "Password changed"
+msgstr "Passwort geändert"
+
+#: ../common.php:271
+msgid "reCAPTCHA verification failed"
+msgstr "reCAPTCHA-Bestätigung gescheitert"
+
+#: ../common.php:272
+msgid "reCAPTCHA settings are incorrect"
+msgstr "reCAPTCHA-Einstellungen sind falsch"
+
+#: ../common.php:273
+msgid "Request to the Google reCAPTCHA service failed"
+msgstr "Anfrage an den Google reCAPTCHA Dienst gescheitert"
+
+#: ../common.php:275
+msgid "Attempt to access prohibited URL"
+msgstr "Zugriffsversuch auf verbotene URL"
+
+#: ../common.php:276 ../common.php:288
+msgid "Attempt to log in with non-existent username"
+msgstr "Anmeldeversuch mit nicht existierendem Nutzernamen"
+
+#: ../common.php:277 ../common.php:289
+msgid "Attempt to log in with prohibited username"
+msgstr "Anmeldeversuch mit verbotenem Benutzernamen"
+
+#: ../common.php:286
+msgid "Limit on login attempts is reached"
+msgstr "Limit für Anmeldeversuche ist erreicht"
+
+#: ../common.php:287
+msgid "Attempt to access"
+msgstr "Zugriffsversuch"
+
+#: ../common.php:341
+msgid "year"
+msgstr "Jahr"
+
+#: ../common.php:342
+msgid "month"
+msgstr "Monat"
+
+#: ../common.php:343
+msgid "day"
+msgstr "Tag"
+
+#: ../common.php:344
+msgid "hour"
+msgstr "Stunde"
+
+#: ../common.php:345
+msgid "minute"
+msgstr "Minute"
+
+#: ../common.php:346
+msgid "second"
+msgstr "Sekunde"
+
+#: ../common.php:349
+msgid "years"
+msgstr "Jahre"
+
+#: ../common.php:350
+msgid "months"
+msgstr "Monate"
+
+#: ../common.php:351 ../settings.php:89
+msgid "days"
+msgstr "Tage"
+
+#: ../common.php:352
+msgid "hours"
+msgstr "Stunden"
+
+#: ../common.php:353 ../settings.php:61 ../settings.php:79
+msgid "minutes"
+msgstr "Minuten"
+
+#: ../common.php:354
+msgid "seconds"
+msgstr "Sekunden"
+
+#: ../common.php:360
+msgid "ago"
+msgstr "her"
+
+#: ../cerber-lab.php:415
+msgid "Want to make WP Cerber even more powerful?"
+msgstr "Wollen Sie WP Cerber noch stärker machen?"
+
+#: ../cerber-lab.php:416
+msgid ""
+"Allow WP Cerber to send locked out malicious IP addresses to Cerber Lab. "
+"This helps the plugin team to develop new algorithms for WP Cerber that will "
+"defend WordPress against new threats and botnets that are appearing  "
+"everyday. You can disable the sending in the plugin settings at any time."
+msgstr ""
+"Erlaube WP Cerber ausgesperrte bösartige IP-Adressen an das Cerber Lab zu "
+"senden. Dies hilft dem Plugin-Team neue Algorithmen für WP Cerber zu "
+"entwickeln, die WordPress gegen täglich auftretende neue Bedrohungen und "
+"Botnets verteidigen. Sie können das Senden jederzeit in den Plugin-"
+"Einstellungen deaktivieren."
+
+#: ../cerber-lab.php:418
+msgid "NO, maybe later"
+msgstr "NEIN, vielleicht später"
+
+#: ../cerber-lab.php:419 ../settings.php:190
+msgid "Know more"
+msgstr "Mehr erfahren"
+
+#: ../settings.php:59
+msgid "Limit login attempts"
+msgstr "Anmeldeversuche limitieren"
+
+#: ../settings.php:60
+msgid "Attempts"
+msgstr "Versuche"
+
+#: ../settings.php:61
+msgid "Lockout duration"
+msgstr "Sperrdauer"
+
+#: ../settings.php:62
+msgid "Aggressive lockout"
+msgstr "Aggressive Sperre"
+
+#: ../settings.php:64
+msgid "Site connection"
+msgstr "Verbindung zur Website"
+
+#: ../settings.php:64
+msgid "My site is behind a reverse proxy"
+msgstr "Meine Website ist hinter einem Reverse-Proxy"
+
+#: ../settings.php:66
+msgid "Proactive security rules"
+msgstr "Proaktive Sicherheitsregeln"
+
+#: ../settings.php:67
+msgid "Block subnet"
+msgstr "Sperre Subnetz"
+
+#: ../settings.php:67
+msgid "Always block entire subnet Class C of intruders IP"
+msgstr "Immer das gesamte Subnetz Klasse C der IP des Eindringlings blockieren"
+
+#: ../settings.php:68
+msgid "Non-existent users"
+msgstr "Nicht vorhandene Benutzer"
+
+#: ../settings.php:68
+msgid "Immediately block IP when attempting to login with a non-existent username"
+msgstr ""
+"IP sofort sperren, wenn versucht wird, sich mit einem nicht vorhandenen "
+"Benutzernamen einzuloggen "
+
+#: ../settings.php:69
+msgid "Redirect dashboard requests"
+msgstr "Dashboard-Anfragen umleiten"
+
+#: ../settings.php:69
+msgid ""
+"Disable automatic redirecting to the login page when /wp-admin/ is requested "
+"by an unauthorized request"
+msgstr ""
+"Die automatische Umleitung auf die Anmeldeseite deaktivieren, wenn /wp-"
+"admin/ von einer nicht autorisierten Anfrage aufgerufen wird"
+
+#: ../settings.php:70
+msgid "Request wp-login.php"
+msgstr "Anfrage wp-login.php"
+
+#: ../settings.php:70
+msgid "Immediately block IP after any request to wp-login.php"
+msgstr "IP nach jeder Anfrage auf wp-login.php sofort sperren"
+
+#: ../settings.php:73
+msgid "Custom login page"
+msgstr "Benutzerdefinierte Login-Seite"
+
+#: ../settings.php:74
+msgid "Custom login URL"
+msgstr "Benutzerdefinierte Login-URL"
+
+#: ../settings.php:75
+msgid "Disable wp-login.php"
+msgstr "Deaktiviere wp-login.php"
+
+#: ../settings.php:75
+msgid "Block direct access to wp-login.php and return HTTP 404 Not Found Error"
+msgstr ""
+"Blockiere direkten Zugriff zu wp-login.php und gib HTTP 404 Not Found Error "
+"zurück"
+
+#: ../settings.php:78
+msgid "Threshold"
+msgstr "Schwelle"
+
+#: ../settings.php:79
+msgid "Duration"
+msgstr "Dauer"
+
+#: ../settings.php:81
+msgid "Send notification to admin email"
+msgstr "Sende eine Benachrichtigung an die Emailadresse des Admins"
+
+#: ../settings.php:81 ../settings.php:339
+msgid "Click to send test"
+msgstr "Klicken für Sendungstest"
+
+#: ../settings.php:89
+msgid "Keep records for"
+msgstr "Behalte Aufzeichnungen für"
+
+#: ../settings.php:90
+msgid "Cerber Lab connection"
+msgstr "Cerber Lab Verbindung"
+
+#: ../settings.php:90
+msgid "Send malicious IP addresses to the Cerber Lab"
+msgstr "Bösartige IP-Adressen an das Cerber Lab senden"
+
+#: ../settings.php:91
+msgid "Cerber Lab protocol"
+msgstr "Cerber Lab Protokoll"
+
+#: ../settings.php:92
+msgid "Write failed login attempts to the file"
+msgstr "Schreibe fehlgeschlagene Anmeldungen in die Datei."
+
+#: ../settings.php:94
+msgid "Preferences"
+msgstr "Präferenzen"
+
+#: ../settings.php:95
+msgid "Retrieve extra WHOIS information for IP"
+msgstr "Extra WHOIS Informationen für IP abrufen"
+
+#: ../settings.php:96
+msgid "Date format"
+msgstr "Datumsformat"
+
+#: ../settings.php:96
+#, php-format
+msgid "if empty, the default format %s will be used"
+msgstr "wenn leer, dann wird das Standard Format %s verwendet"
+
+#: ../settings.php:103
+msgid "Hardening WordPress"
+msgstr "WordPress abhärten"
+
+#: ../settings.php:104
+msgid "Block access to the pages like /?author=n"
+msgstr "Zugriff auf Seiten wie /?author=n sperren"
+
+#: ../settings.php:105
+msgid "Disable XML-RPC"
+msgstr "Deaktiviere XML-RPC"
+
+#: ../settings.php:105
+msgid "Block access to the XML-RPC server (including Pingbacks and Trackbacks)"
+msgstr ""
+"Zugriff auf den XML-RPC Server sperren (Pingbacks und Trackbacks "
+"eingeschlossen)"
+
+#: ../settings.php:106
+msgid "Disable feeds"
+msgstr "Feeds deaktivieren"
+
+#: ../settings.php:106
+msgid "Block access to the RSS, Atom and RDF feeds"
+msgstr "Zugriff auf den RSS-, den Atom- und den RDF-Feed blockieren"
+
+#: ../settings.php:107
+msgid "Disable REST API"
+msgstr "REST API deaktivieren"
+
+#: ../settings.php:107
+msgid "Block access to the WordPress REST API"
+msgstr "Zugriff auf das WordPress REST API blockieren"
+
+#: ../settings.php:115
+msgid "User related settings"
+msgstr "Benutzerbezogene Einstellungen"
+
+#: ../settings.php:116
+msgid "Prohibited usernames"
+msgstr "Verbotene Benutzernamen"
+
+#: ../settings.php:116
+msgid ""
+"Usernames from this list are not allowed to log in or register. Any IP "
+"address, have tried to use any of these usernames, will be immediately "
+"blocked. Use comma to separate logins."
+msgstr ""
+"Benutzernamen von dieser Liste dürfen sich nicht anmelden oder registrieren. "
+"Jede IP-Adresse, die versucht hat einen dieser Nutzernamen zu verwenden, "
+"wird sofort blockiert. Mit Komma Namen trennen."
+
+#: ../settings.php:117
+msgid "User session expire"
+msgstr "Benutzer-Sitzung Ablauf"
+
+#: ../settings.php:117
+msgid "in minutes (leave empty to use default WP value)"
+msgstr "in Minuten (leer lassen um WP Standardwert zu verwenden)"
+
+#. Technical term.
+#: ../settings.php:124
+msgid "Site key"
+msgstr "Site key"
+
+#. Technical term.
+#: ../settings.php:125
+msgid "Secret key"
+msgstr "Secret key"
+
+#: ../settings.php:127
+msgid "Registration form"
+msgstr "Registrierungsformular"
+
+#: ../settings.php:127
+msgid "Enable reCAPTCHA for WordPress registration form"
+msgstr "Aktiviere reCAPTCHA für das WordPress Registrierungsformular"
+
+#: ../settings.php:128
+msgid "Enable reCAPTCHA for WooCommerce registration form"
+msgstr "Aktiviere reCAPTCHA für das WooCommerce Registrierungsformular"
+
+#: ../settings.php:130
+msgid "Lost password form"
+msgstr "Passwort-Vergessen-Formular"
+
+#: ../settings.php:130
+msgid "Enable reCAPTCHA for WordPress lost password form"
+msgstr "Aktiviere reCAPTCHA für das WordPress Passwort-Vergessen-Formular"
+
+#: ../settings.php:131
+msgid "Enable reCAPTCHA for WooCommerce lost password form"
+msgstr "Aktiviere reCAPTCHA für das WooCommerce Passwort-Vergessen-Formular"
+
+#: ../settings.php:133
+msgid "Login form"
+msgstr "Anmeldeforumlar"
+
+#: ../settings.php:133
+msgid "Enable reCAPTCHA for WordPress login form"
+msgstr "Aktiviere reCAPTCHA für das WordPress Anmeldeformular"
+
+#: ../settings.php:134
+msgid "Enable reCAPTCHA for WooCommerce login form"
+msgstr "Aktiviere reCAPTCHA für das WooCommerce Anmeldeformular"
+
+#: ../settings.php:140
+msgid "Email notifications"
+msgstr "Email-Benachrichtigungen"
+
+#: ../settings.php:142
+msgid "Email Address"
+msgstr "E-Mail-Adresse"
+
+#: ../settings.php:142
+msgid "Use comma to specify multiple values"
+msgstr "Mit Komma mehrere Werte trennen"
+
+#: ../settings.php:142
+#, php-format
+msgid "if empty, the admin email %s will be used"
+msgstr "wenn leer, dann wird die E-Mail-Adresse %s des Admins benutzt"
+
+#: ../settings.php:143
+msgid "Notification limit"
+msgstr "Benachrichtigungslimit"
+
+#: ../settings.php:152
+msgid "All connected devices"
+msgstr "Alle verbundenen Geräte"
+
+#: ../settings.php:153
+msgid "No devices found"
+msgstr "Kein Gerät gefunden"
+
+#: ../settings.php:155
+msgid "Not available"
+msgstr "Nicht verfügbar"
+
+#. A fuzzy translation that is mostly used in this context would be "Machen Sie Ihren Schutz intelligenter!"
+#: ../settings.php:166
+msgid "Make your protection smarter!"
+msgstr "Machen Sie Ihren Schutz schlauer!"
+
+#: ../settings.php:170
+msgid ""
+"Please enable Permalinks to use this feature. Set Permalink Settings to "
+"something other than Default."
+msgstr ""
+"Bitte aktivieren Sie Permalinks um dieses Merkmal zu verwenden. Setzen Sie "
+"die Permalink-Einstellungen auf etwas anderes als Standard."
+
+#: ../settings.php:173
+msgid ""
+"Be careful when enabling this options. If you forget the custom login URL "
+"you will not be able to login."
+msgstr ""
+"Seien Sie vorsichtig bei der Aktivierung dieser Optionen. Wenn Sie die "
+"benutzerdefinierte Login-URL vergessen, können Sie sich nicht mehr anmelden."
+
+#: ../settings.php:177
+msgid ""
+"In Citadel mode nobody is able to login. Active user's sessions will not be "
+"affected."
+msgstr ""
+"Niemand kann sich im Citadel-Modus anmelden. Aktive Benutzer-Sitzungen "
+"werden nicht beeinflusst."
+
+#: ../settings.php:189
+msgid ""
+"Before you can start using reCAPTCHA, you have to obtain Site key and Secret "
+"key on the Google website"
+msgstr ""
+"Bevor Sie reCAPTCHA nutzen können, müssen Sie einen Site key und einen "
+"Secret key von der Google Website beziehen."
+
+#: ../settings.php:231
+msgid "Users"
+msgstr "Benutzer"
+
+#: ../settings.php:238
+msgid "Help"
+msgstr "Hilfe"
+
+#: ../settings.php:325
+#, php-format
+msgid "%s allowed retries in %s minutes"
+msgstr "%s erlaubte Wiederholungen in %s Minuten"
+
+#: ../settings.php:337
+msgid "Notify admin if the number of active lockouts above"
+msgstr ""
+"Benachrichtige den Admin, wenn die Anzahl von aktiven Aussperrungen größer "
+"ist als"
+
+#: ../settings.php:342
+#, php-format
+msgid "Enable after %s failed login attempts in last %s minutes"
+msgstr "Aktiviere nach %s fehlgeschlagenen Anmeldeversuchen in den letzten %s Minuten"
+
+#: ../settings.php:426
+msgid "Attention! You have changed the login URL! The new login URL is"
+msgstr "Achtung! Sie haben die Anmelde-URL geändert! Die neue Login-URL ist"
+
+#: ../settings.php:501
+msgid "<strong>ERROR</strong>: please enter a valid email address."
+msgstr "<strong>FEHLER</strong>: Bitte eine gültige E-Mail-Adresse eingeben"
+
+#: ../cerber-tools.php:55
+msgid "Export settings to the file"
+msgstr "Einstellungen in Datei exportieren"
+
+#: ../cerber-tools.php:57
+msgid "What do you want to export?"
+msgstr "Was wollen Sie exportieren?"
+
+#: ../cerber-tools.php:58 ../cerber-tools.php:67
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../cerber-tools.php:60
+msgid "Download file"
+msgstr "Datei herunterladen"
+
+#: ../cerber-tools.php:62
+msgid "Import settings from the file"
+msgstr "Einstellungen aus Datei importieren"
+
+#: ../cerber-tools.php:64
+msgid "Select file to import."
+msgstr "Datei zum Importieren auswählen."
+
+#: ../cerber-tools.php:64
+#, php-format
+msgid "Maximum upload file size: %s."
+msgstr "Maximale Dateigröße für Uploads: %s"
+
+#: ../cerber-tools.php:67
+msgid "What do you want to import?"
+msgstr "Was wollen Sie importieren?"
+
+#: ../cerber-tools.php:69
+msgid "Upload file"
+msgstr "Datei hochladen"
+
+#: ../cerber-tools.php:148
+msgid "No file was uploaded or file is corrupted"
+msgstr "Keine Datei hochgeladen oder Datei ist beschädigt"
+
+#: ../cerber-tools.php:178
+msgid "Error while updating"
+msgstr "Fehler bei der Aktualisierung"
+
+#: ../cerber-tools.php:181
+msgid "Settings has imported successfully from"
+msgstr "Einstellungen erfolgreich importiert von"
+
+#: ../cerber-tools.php:185
+msgid "Error while parsing file"
+msgstr "Fehler beim Parsen der Datei"
+
+#: ../cerber-tools.php:195
+msgid "reCAPTCHA settings"
+msgstr "reCAPTCHA-Einstellungen"
